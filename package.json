@@ -1,11 +1,34 @@
 {
-	"name": "vscode-java-pack",
+	"name": "@codeeditorland/java-pack",
 	"displayName": "Extension Pack for Java",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Popular extensions for Java development that provides Java IntelliSense, debugging, testing, Maven/Gradle support, project management and more",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandJavaPack#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandJavaPack/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandJavaPack.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./out/extension",
 	"scripts": {
 		"build": "webpack --config webpack.config.js --mode=\"production\"",
 		"compile": "webpack --config webpack.config.js",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"update-tpn": "node scripts/update-third-party-notice.js"
 	},
 	"contributes": {
@@ -320,6 +343,7 @@
 		"semver": "7.7.1"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/bytes": "3.1.5",
 		"@types/expand-tilde": "2.0.2",
 		"@types/fs-extra": "11.0.4",
@@ -350,6 +374,9 @@
 		"vscjava.vscode-java-test",
 		"vscjava.vscode-maven"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"icon": "logo.png",
 	"preview": false,
 	"aiKey": "b4a8a622-6ac7-4cf8-83aa-f325e1890795",
