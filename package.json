@@ -330,7 +330,7 @@
 		"@iconify-icons/codicon": "1.2.30",
 		"@xmldom/xmldom": "0.9.8",
 		"axios": "1.8.4",
-		"bootstrap": "5.3.3",
+		"bootstrap": "5.3.4",
 		"compare-versions": "6.1.1",
 		"expand-home-dir": "0.0.3",
 		"expand-tilde": "2.0.2",
@@ -360,7 +360,7 @@
 		"postcss": "8.5.3",
 		"postcss-loader": "8.1.1",
 		"process": "0.11.10",
-		"sass": "1.86.0",
+		"sass": "1.86.2",
 		"sass-loader": "16.0.5",
 		"style-loader": "4.0.0",
 		"ts-loader": "9.5.2"
