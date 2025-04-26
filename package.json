@@ -329,7 +329,7 @@
 	"dependencies": {
 		"@iconify-icons/codicon": "1.2.30",
 		"@xmldom/xmldom": "0.9.8",
-		"axios": "1.8.4",
+		"axios": "1.9.0",
 		"bootstrap": "5.3.5",
 		"compare-versions": "6.1.1",
 		"expand-home-dir": "0.0.3",
